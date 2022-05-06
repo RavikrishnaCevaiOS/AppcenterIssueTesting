@@ -13,7 +13,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    @IBAction func buttonTapped(_ sender: UIButton) {
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "SamVC") as? SamVC
+        self.navigationController?.pushViewController(vc!, animated: true)
+    }
 }
 

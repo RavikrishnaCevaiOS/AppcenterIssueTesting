@@ -16,6 +16,7 @@
 		F785393F2808473600BD3BB4 /* SampleProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F785393E2808473600BD3BB4 /* SampleProTests.swift */; };
 		F78539492808473600BD3BB4 /* SampleProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78539482808473600BD3BB4 /* SampleProUITests.swift */; };
 		F785394B2808473600BD3BB4 /* SampleProUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F785394A2808473600BD3BB4 /* SampleProUITestsLaunchTests.swift */; };
+		F7853958280850D200BD3BB4 /* SamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7853957280850D200BD3BB4 /* SamVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F78539442808473600BD3BB4 /* SampleProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78539482808473600BD3BB4 /* SampleProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProUITests.swift; sourceTree = "<group>"; };
 		F785394A2808473600BD3BB4 /* SampleProUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7853957280850D200BD3BB4 /* SamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				F78539272808473000BD3BB4 /* AppDelegate.swift */,
 				F78539292808473000BD3BB4 /* SceneDelegate.swift */,
 				F785392B2808473000BD3BB4 /* ViewController.swift */,
+				F7853957280850D200BD3BB4 /* SamVC.swift */,
 				F785392D2808473000BD3BB4 /* Main.storyboard */,
 				F78539302808473500BD3BB4 /* Assets.xcassets */,
 				F78539322808473500BD3BB4 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7853958280850D200BD3BB4 /* SamVC.swift in Sources */,
 				F785392C2808473000BD3BB4 /* ViewController.swift in Sources */,
 				F78539282808473000BD3BB4 /* AppDelegate.swift in Sources */,
 				F785392A2808473000BD3BB4 /* SceneDelegate.swift in Sources */,
@@ -447,6 +451,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +480,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
