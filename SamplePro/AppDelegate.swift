@@ -22,6 +22,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //                UINavigationBar.appearance().standardAppearance = appearance
 //                UINavigationBar.appearance().scrollEdgeAppearance = appearance
 //         } // Kittu
+        // Kittu
+        // Kittu
+        // Kittu
+
 // comment
         return true
     }
