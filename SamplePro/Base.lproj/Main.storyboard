@@ -19,7 +19,8 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ur-5t-VUh">
                                 <rect key="frame" x="105" y="253" width="204" height="45"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="DaZ-yO-9eP"/>
                                 </constraints>
