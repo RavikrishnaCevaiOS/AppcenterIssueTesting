@@ -17,6 +17,7 @@
 		F78539492808473600BD3BB4 /* SampleProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78539482808473600BD3BB4 /* SampleProUITests.swift */; };
 		F785394B2808473600BD3BB4 /* SampleProUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F785394A2808473600BD3BB4 /* SampleProUITestsLaunchTests.swift */; };
 		F7CE5404284F78B3008BDB44 /* GreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CE5403284F78B3008BDB44 /* GreenVC.swift */; };
+		F7CE5406284F865B008BDB44 /* BrownVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CE5405284F865B008BDB44 /* BrownVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F78539482808473600BD3BB4 /* SampleProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProUITests.swift; sourceTree = "<group>"; };
 		F785394A2808473600BD3BB4 /* SampleProUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F7CE5403284F78B3008BDB44 /* GreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenVC.swift; sourceTree = "<group>"; };
+		F7CE5405284F865B008BDB44 /* BrownVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrownVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				F78539292808473000BD3BB4 /* SceneDelegate.swift */,
 				F74E4A52283B86080065F374 /* DashboardVC.swift */,
 				F7CE5403284F78B3008BDB44 /* GreenVC.swift */,
+				F7CE5405284F865B008BDB44 /* BrownVC.swift */,
 				F785392D2808473000BD3BB4 /* Main.storyboard */,
 				F78539302808473500BD3BB4 /* Assets.xcassets */,
 				F78539322808473500BD3BB4 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F78539282808473000BD3BB4 /* AppDelegate.swift in Sources */,
+				F7CE5406284F865B008BDB44 /* BrownVC.swift in Sources */,
 				F74E4A53283B86080065F374 /* DashboardVC.swift in Sources */,
 				F7CE5404284F78B3008BDB44 /* GreenVC.swift in Sources */,
 				F785392A2808473000BD3BB4 /* SceneDelegate.swift in Sources */,
