@@ -19,7 +19,8 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ur-5t-VUh">
                                 <rect key="frame" x="105" y="253" width="204" height="45"/>
-                                <color key="backgroundColor" red="0.0084462789820000002" green="0.59172368050000002" blue="0.32936796550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="DaZ-yO-9eP"/>
                                 </constraints>
@@ -28,8 +29,20 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dif-p2-6cB">
+                                <rect key="frame" x="105" y="318" width="204" height="45"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="3qq-l8-Mko"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Move To Brown">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
                                 <connections>
-                                    <action selector="greenButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C58-c3-f8U"/>
+                                    <action selector="greenButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fpS-ER-J9T"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gfk-b7-EEr">
@@ -50,10 +63,16 @@
                         <constraints>
                             <constraint firstItem="7Ur-5t-VUh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="4S0-nD-jRW"/>
                             <constraint firstItem="7Ur-5t-VUh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="165" id="9mi-d5-qSf"/>
+                            <constraint firstItem="dif-p2-6cB" firstAttribute="top" secondItem="7Ur-5t-VUh" secondAttribute="bottom" constant="20" id="STv-0m-N1i"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dif-p2-6cB" secondAttribute="trailing" constant="105" id="VhU-ng-XCC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Ur-5t-VUh" secondAttribute="trailing" constant="105" id="YKr-Vv-CJH"/>
+
                             <constraint firstItem="Gfk-b7-EEr" firstAttribute="top" secondItem="7Ur-5t-VUh" secondAttribute="bottom" constant="20" id="f5R-35-WuR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gfk-b7-EEr" secondAttribute="trailing" constant="105" id="k8b-sh-r5L"/>
                             <constraint firstItem="Gfk-b7-EEr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="uRi-mh-yoT"/>
+
+                            <constraint firstItem="dif-p2-6cB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="v6E-ab-6A3"/>
+
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ahc-2A-ar0"/>
@@ -96,13 +115,37 @@
             </objects>
             <point key="canvasLocation" x="1759" y="70"/>
         </scene>
+        <!--BrownVC-->
+        <scene sceneID="00d-0V-TcU">
+            <objects>
+                <viewController storyboardIdentifier="BrownVC" id="KHr-VS-EdD" customClass="BrownVC" customModule="SamplePro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="20Y-Bl-Wrs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="DJm-jL-jpT"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Q4f-iq-knI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RUP-6c-S7Y" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2441" y="70"/>
+        </scene>
     </scenes>
     <resources>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
+
         <systemColor name="systemPurpleColor">
             <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+
         </systemColor>
     </resources>
 </document>
