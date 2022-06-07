@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -15,8 +16,30 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ur-5t-VUh">
+                                <rect key="frame" x="105" y="253" width="204" height="45"/>
+                                <color key="backgroundColor" red="0.0084462789820000002" green="0.59172368050000002" blue="0.32936796550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="DaZ-yO-9eP"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Move To Green">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="greenButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C58-c3-f8U"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.45943466933457167" green="0.35450616415743802" blue="0.98622702155668329" alpha="0.53626879218484269" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7Ur-5t-VUh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="4S0-nD-jRW"/>
+                            <constraint firstItem="7Ur-5t-VUh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="165" id="9mi-d5-qSf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Ur-5t-VUh" secondAttribute="trailing" constant="105" id="YKr-Vv-CJH"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ahc-2A-ar0"/>
                 </viewController>
@@ -42,5 +65,26 @@
             </objects>
             <point key="canvasLocation" x="330" y="70"/>
         </scene>
+        <!--GreenVC-->
+        <scene sceneID="hTv-P2-iiF">
+            <objects>
+                <viewController storyboardIdentifier="GreenVC" id="0dl-3a-G4Q" customClass="GreenVC" customModule="SamplePro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bfK-nx-mHd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="rfI-XK-eLQ"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oGD-Si-xy0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="95Y-yP-zct" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1759" y="70"/>
+        </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
