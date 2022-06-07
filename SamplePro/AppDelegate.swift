@@ -21,9 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //                UINavigationBar.appearance().standardAppearance = appearance
 //                UINavigationBar.appearance().scrollEdgeAppearance = appearance
 //         } // Kittu
-        // Replace text here
-        // another text
-
 
 // comment
         return true
