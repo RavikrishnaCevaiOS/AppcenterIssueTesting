@@ -15,7 +15,7 @@ class DashboardVC: UIViewController {
     }
 
     @IBAction func greenButtonTapped(_ sender: Any) {
-        let controller = self.storyboard?.instantiateViewController(withIdentifier: "GreenVC") as! GreenVC
+        let controller = self.storyboard?.instantiateViewController(withIdentifier: "BrownVC") as! BrownVC
         self.navigationController?.pushViewController(controller, animated: true)
     }
     
