@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F74E4A53283B86080065F374 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74E4A52283B86080065F374 /* DashboardVC.swift */; };
-		F74E4A55283B86230065F374 /* YellowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74E4A54283B86230065F374 /* YellowVC.swift */; };
 		F78539282808473000BD3BB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78539272808473000BD3BB4 /* AppDelegate.swift */; };
 		F785392A2808473000BD3BB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78539292808473000BD3BB4 /* SceneDelegate.swift */; };
 		F785392F2808473000BD3BB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F785392D2808473000BD3BB4 /* Main.storyboard */; };
@@ -38,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		F74E4A52283B86080065F374 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
-		F74E4A54283B86230065F374 /* YellowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowVC.swift; sourceTree = "<group>"; };
 		F78539242808473000BD3BB4 /* SamplePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamplePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78539272808473000BD3BB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F78539292808473000BD3BB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				F78539272808473000BD3BB4 /* AppDelegate.swift */,
 				F78539292808473000BD3BB4 /* SceneDelegate.swift */,
 				F74E4A52283B86080065F374 /* DashboardVC.swift */,
-				F74E4A54283B86230065F374 /* YellowVC.swift */,
 				F785392D2808473000BD3BB4 /* Main.storyboard */,
 				F78539302808473500BD3BB4 /* Assets.xcassets */,
 				F78539322808473500BD3BB4 /* LaunchScreen.storyboard */,
@@ -263,7 +260,6 @@
 			files = (
 				F78539282808473000BD3BB4 /* AppDelegate.swift in Sources */,
 				F74E4A53283B86080065F374 /* DashboardVC.swift in Sources */,
-				F74E4A55283B86230065F374 /* YellowVC.swift in Sources */,
 				F785392A2808473000BD3BB4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
