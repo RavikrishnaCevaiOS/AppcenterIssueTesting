@@ -19,4 +19,5 @@ class DashboardVC: UIViewController {
         self.navigationController?.pushViewController(controller, animated: true)
     }
     
+    // text for merge conflict
 }

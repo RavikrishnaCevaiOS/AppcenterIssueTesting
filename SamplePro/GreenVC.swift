@@ -14,4 +14,5 @@ class GreenVC: UIViewController {
 
     }
 
+    // sample text for merge conflict
 }
